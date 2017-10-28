@@ -9,11 +9,13 @@
         android:layout_height="wrap_content" />
 
     <TextView android:text="Get well, Stormy"
+        android:fontFamily="sans-serif-light"
         android:textSize="36sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <TextView android:text="from Joel"
+    <TextView android:text="from, Joel"
+        android:fontFamily="sans-serif-light"
         android:textSize="36sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

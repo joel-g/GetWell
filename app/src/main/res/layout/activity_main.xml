@@ -5,17 +5,22 @@
     tools:context=".MainActivity">
 
     <ImageView android:src="@drawable/flowers"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
 
     <TextView android:text="Get well, Stormy"
-        android:fontFamily="sans-serif-light"
+        android:layout_margin="20dp"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-heavy"
         android:textSize="36sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
     <TextView android:text="from, Joel"
-        android:fontFamily="sans-serif-light"
+        android:layout_margin="20dp"
+        android:fontFamily="sans-serif-heavy"
+        android:textColor="@android:color/black"
         android:textSize="36sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
